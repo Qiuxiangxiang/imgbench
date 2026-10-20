@@ -1,0 +1,40 @@
+{
+  "source_bytes": 1424403,
+  "rows": [
+    {
+      "route": "x264_crf23",
+      "bytes": 1023355,
+      "enc_s": 1.4,
+      "ssim": 0.995371,
+      "psnr": 50.529366
+    },
+    {
+      "route": "h264_hw",
+      "bytes": 944497,
+      "enc_s": 1.1,
+      "ssim": 0.990528,
+      "psnr": 47.060713
+    },
+    {
+      "route": "x265_crf28",
+      "bytes": 331423,
+      "enc_s": 2.6,
+      "ssim": 0.991159,
+      "psnr": 48.313217
+    },
+    {
+      "route": "hevc_hw",
+      "bytes": 767096,
+      "enc_s": 1.1,
+      "ssim": 0.989249,
+      "psnr": 47.3067
+    },
+    {
+      "route": "svtav1_crf35",
+      "bytes": 432592,
+      "enc_s": 1.3,
+      "ssim": 0.993533,
+      "psnr": 50.342767
+    }
+  ]
+}
