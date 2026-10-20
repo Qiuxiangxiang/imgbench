@@ -1,0 +1,60 @@
+[
+  {
+    "codec": "original",
+    "bpp": null,
+    "ocr_acc": 0.811
+  },
+  {
+    "codec": "cheng2020-q1",
+    "bpp": 0.1222,
+    "psnr": 31.76,
+    "ocr_acc": 0.723
+  },
+  {
+    "codec": "cheng2020-q3",
+    "bpp": 0.1952,
+    "psnr": 35.33,
+    "ocr_acc": 0.779
+  },
+  {
+    "codec": "cheng2020-q6",
+    "bpp": 0.3867,
+    "psnr": 41.55,
+    "ocr_acc": 0.777
+  },
+  {
+    "codec": "JPEG-q15",
+    "bpp": 0.3441,
+    "ocr_acc": 0.742
+  },
+  {
+    "codec": "JPEG-q30",
+    "bpp": 0.447,
+    "ocr_acc": 0.748
+  },
+  {
+    "codec": "JPEG-q50",
+    "bpp": 0.5433,
+    "ocr_acc": 0.743
+  },
+  {
+    "codec": "JPEG-q75",
+    "bpp": 0.703,
+    "ocr_acc": 0.751
+  },
+  {
+    "codec": "AVIF-q20",
+    "bpp": 0.1125,
+    "ocr_acc": 0.804
+  },
+  {
+    "codec": "AVIF-q40",
+    "bpp": 0.1582,
+    "ocr_acc": 0.811
+  },
+  {
+    "codec": "AVIF-q60",
+    "bpp": 0.1993,
+    "ocr_acc": 0.82
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "image": "kodim01.png",
+    "kind": "natural",
+    "bpp": 0.4548,
+    "hi_freq": 0.108
+  },
+  {
+    "image": "kodim02.png",
+    "kind": "natural",
+    "bpp": 0.1362,
+    "hi_freq": 0.0941
+  },
+  {
+    "image": "kodim03.png",
+    "kind": "natural",
+    "bpp": 0.1255,
+    "hi_freq": 0.0237
+  },
+  {
+    "image": "kodim04.png",
+    "kind": "natural",
+    "bpp": 0.1685,
+    "hi_freq": 0.0273
+  },
+  {
+    "image": "kodim05.png",
+    "kind": "natural",
+    "bpp": 0.5068,
+    "hi_freq": 0.0762
+  },
+  {
+    "image": "kodim06.png",
+    "kind": "natural",
+    "bpp": 0.3266,
+    "hi_freq": 0.0343
+  },
+  {
+    "image": "kodim07.png",
+    "kind": "natural",
+    "bpp": 0.1967,
+    "hi_freq": 0.03
+  },
+  {
+    "image": "kodim08.png",
+    "kind": "natural",
+    "bpp": 0.5144,
+    "hi_freq": 0.0746
+  },
+  {
+    "image": "kodim09.png",
+    "kind": "natural",
+    "bpp": 0.1506,
+    "hi_freq": 0.0313
+  },
+  {
+    "image": "kodim10.png",
+    "kind": "natural",
+    "bpp": 0.162,
+    "hi_freq": 0.0338
+  },
+  {
+    "image": "kodim11.png",
+    "kind": "natural",
+    "bpp": 0.2608,
+    "hi_freq": 0.0509
+  },
+  {
+    "image": "kodim12.png",
+    "kind": "natural",
+    "bpp": 0.1226,
+    "hi_freq": 0.0209
+  },
+  {
+    "image": "kodim13.png",
+    "kind": "natural",
+    "bpp": 0.6415,
+    "hi_freq": 0.0963
+  },
+  {
+    "image": "kodim14.png",
+    "kind": "natural",
+    "bpp": 0.3603,
+    "hi_freq": 0.042
+  },
+  {
+    "image": "kodim15.png",
+    "kind": "natural",
+    "bpp": 0.1541,
+    "hi_freq": 0.0081
+  },
+  {
+    "image": "kodim16.png",
+    "kind": "natural",
+    "bpp": 0.1864,
+    "hi_freq": 0.0329
+  },
+  {
+    "image": "kodim17.png",
+    "kind": "natural",
+    "bpp": 0.1813,
+    "hi_freq": 0.0178
+  },
+  {
+    "image": "kodim18.png",
+    "kind": "natural",
+    "bpp": 0.3829,
+    "hi_freq": 0.0732
+  },
+  {
+    "image": "kodim19.png",
+    "kind": "natural",
+    "bpp": 0.2192,
+    "hi_freq": 0.049
+  },
+  {
+    "image": "kodim20.png",
+    "kind": "natural",
+    "bpp": 0.1477,
+    "hi_freq": 0.0081
+  },
+  {
+    "image": "kodim21.png",
+    "kind": "natural",
+    "bpp": 0.305,
+    "hi_freq": 0.0575
+  },
+  {
+    "image": "kodim22.png",
+    "kind": "natural",
+    "bpp": 0.2522,
+    "hi_freq": 0.0437
+  },
+  {
+    "image": "kodim23.png",
+    "kind": "natural",
+    "bpp": 0.1164,
+    "hi_freq": 0.0152
+  },
+  {
+    "image": "kodim24.png",
+    "kind": "natural",
+    "bpp": 0.3844,
+    "hi_freq": 0.0534
+  },
+  {
+    "image": "aigc_00.jpg",
+    "kind": "aigc",
+    "bpp": 0.1337,
+    "hi_freq": 0.0302
+  },
+  {
+    "image": "aigc_01.jpg",
+    "kind": "aigc",
+    "bpp": 0.0974,
+    "hi_freq": 0.0204
+  },
+  {
+    "image": "aigc_02.jpg",
+    "kind": "aigc",
+    "bpp": 0.1126,
+    "hi_freq": 0.0375
+  },
+  {
+    "image": "aigc_03.jpg",
+    "kind": "aigc",
+    "bpp": 0.071,
+    "hi_freq": 0.0358
+  },
+  {
+    "image": "aigc_04.jpg",
+    "kind": "aigc",
+    "bpp": 0.1323,
+    "hi_freq": 0.0267
+  },
+  {
+    "image": "aigc_05.jpg",
+    "kind": "aigc",
+    "bpp": 0.1216,
+    "hi_freq": 0.0508
+  },
+  {
+    "image": "aigc_06.jpg",
+    "kind": "aigc",
+    "bpp": 0.0933,
+    "hi_freq": 0.02
+  },
+  {
+    "image": "aigc_07.jpg",
+    "kind": "aigc",
+    "bpp": 0.1742,
+    "hi_freq": 0.0355
+  },
+  {
+    "image": "aigc_08.png",
+    "kind": "aigc",
+    "bpp": 0.0943,
+    "hi_freq": 0.0043
+  },
+  {
+    "image": "aigc_09.png",
+    "kind": "aigc",
+    "bpp": 0.0973,
+    "hi_freq": 0.0053
+  },
+  {
+    "image": "aigc_10.png",
+    "kind": "aigc",
+    "bpp": 0.0576,
+    "hi_freq": 0.0029
+  },
+  {
+    "image": "aigc_11.png",
+    "kind": "aigc",
+    "bpp": 0.1003,
+    "hi_freq": 0.008
+  },
+  {
+    "image": "aigc_12.png",
+    "kind": "aigc",
+    "bpp": 0.0965,
+    "hi_freq": 0.0055
+  },
+  {
+    "image": "aigc_13.png",
+    "kind": "aigc",
+    "bpp": 0.1036,
+    "hi_freq": 0.0075
+  },
+  {
+    "image": "aigc_14.png",
+    "kind": "aigc",
+    "bpp": 0.0781,
+    "hi_freq": 0.0039
+  },
+  {
+    "image": "aigc_15.png",
+    "kind": "aigc",
+    "bpp": 0.07,
+    "hi_freq": 0.0034
+  },
+  {
+    "image": "aigc_16.png",
+    "kind": "aigc",
+    "bpp": 0.1892,
+    "hi_freq": 0.0119
+  },
+  {
+    "image": "aigc_17.png",
+    "kind": "aigc",
+    "bpp": 0.0924,
+    "hi_freq": 0.0052
+  },
+  {
+    "image": "aigc_face.png",
+    "kind": "aigc",
+    "bpp": 0.0445,
+    "hi_freq": 0.0032
+  },
+  {
+    "image": "aigc_cover.jpg",
+    "kind": "aigc",
+    "bpp": 0.0889,
+    "hi_freq": 0.0235
+  }
+]
