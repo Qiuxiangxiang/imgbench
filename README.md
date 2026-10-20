@@ -11,7 +11,7 @@
 | 发现 | 数据 |
 |---|---|
 | 2020 年的学术模型等 PSNR 下码率仅为 AVIF 的一半 | cheng2020-q1 @ 0.060bpp / 31.9dB vs AVIF-q20 @ 0.114bpp / 31.7dB |
-| JPEG AI 参考编码器开箱 RD 性能落后于 2020 学术模型 | 2 图 × 3 工作点方向一致（参考实现不为 RD 优化，见下文免责声明） |
+| JPEG AI 参考编码器 RD 表现依内容/工作点大幅波动 | Kodak 默认档落后 2020 学术模型；ImageNet 30 张 t25 档与 cheng-q3 打平、优于 AVIF（详见 reports/imagenet-scale.md，单点结论勿外推） |
 | **M2 上 CPU 编码比 MPS GPU 快 3 倍** | 1.03s vs 3.19s（cheng-q1，小模型 GPU 负优化） |
 | **AI 生成图天生好压 2-3 倍** | AIGC 中位 0.097bpp vs 自然照片 0.208bpp（44 张实测，高频能量 r=0.794） |
 | **<16px 文字在低码率档被学习型 codec 团灭** | OCR 0.00-0.06 vs AVIF 0.76+；阈值=codec 下采样因子 |
