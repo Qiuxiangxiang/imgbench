@@ -1,0 +1,212 @@
+[
+  {
+    "image": "n01440764_tench",
+    "jai_bytes": 5483,
+    "jpeg_bytes": 100582,
+    "psnr": 32.85,
+    "bpp": 0.2339
+  },
+  {
+    "image": "n01443537_goldfish",
+    "jai_bytes": 3448,
+    "jpeg_bytes": 36973,
+    "psnr": 33.82,
+    "bpp": 0.2789
+  },
+  {
+    "image": "n01484850_great_white_shark",
+    "jai_bytes": 5665,
+    "jpeg_bytes": 99943,
+    "psnr": 33.29,
+    "bpp": 0.2722
+  },
+  {
+    "image": "n01491361_tiger_shark",
+    "jai_bytes": 5616,
+    "jpeg_bytes": 50366,
+    "psnr": 40.83,
+    "bpp": 0.2871
+  },
+  {
+    "image": "n01494475_hammerhead",
+    "jai_bytes": 5655,
+    "jpeg_bytes": 142314,
+    "psnr": 23.2,
+    "bpp": 0.2717
+  },
+  {
+    "image": "n01496331_electric_ray",
+    "jai_bytes": 7980,
+    "jpeg_bytes": 101537,
+    "psnr": 23.47,
+    "bpp": 0.2667
+  },
+  {
+    "image": "n01498041_stingray",
+    "jai_bytes": 5468,
+    "jpeg_bytes": 313405,
+    "psnr": 17.43,
+    "bpp": 0.2333
+  },
+  {
+    "image": "n01514668_cock",
+    "jai_bytes": 5974,
+    "jpeg_bytes": 122371,
+    "psnr": 27.25,
+    "bpp": 0.2739
+  },
+  {
+    "image": "n01514859_hen",
+    "jai_bytes": 5631,
+    "jpeg_bytes": 96736,
+    "psnr": 30.92,
+    "bpp": 0.2706
+  },
+  {
+    "image": "n01518878_ostrich",
+    "jai_bytes": 6342,
+    "jpeg_bytes": 101571,
+    "psnr": 30.89,
+    "bpp": 0.2706
+  },
+  {
+    "image": "n01530575_brambling",
+    "jai_bytes": 6372,
+    "jpeg_bytes": 147711,
+    "psnr": 25.64,
+    "bpp": 0.2711
+  },
+  {
+    "image": "n01531178_goldfinch",
+    "jai_bytes": 6399,
+    "jpeg_bytes": 114356,
+    "psnr": 28.54,
+    "bpp": 0.273
+  },
+  {
+    "image": "n01532829_house_finch",
+    "jai_bytes": 6146,
+    "jpeg_bytes": 78014,
+    "psnr": 33.65,
+    "bpp": 0.2364
+  },
+  {
+    "image": "n01534433_junco",
+    "jai_bytes": 5441,
+    "jpeg_bytes": 204988,
+    "psnr": 22.58,
+    "bpp": 0.2321
+  },
+  {
+    "image": "n01537544_indigo_bunting",
+    "jai_bytes": 6318,
+    "jpeg_bytes": 113190,
+    "psnr": 33.57,
+    "bpp": 0.2335
+  },
+  {
+    "image": "n01558993_robin",
+    "jai_bytes": 6314,
+    "jpeg_bytes": 118588,
+    "psnr": 31.33,
+    "bpp": 0.2694
+  },
+  {
+    "image": "n01560419_bulbul",
+    "jai_bytes": 5747,
+    "jpeg_bytes": 101019,
+    "psnr": 29.14,
+    "bpp": 0.2753
+  },
+  {
+    "image": "n01580077_jay",
+    "jai_bytes": 5374,
+    "jpeg_bytes": 89168,
+    "psnr": 34.3,
+    "bpp": 0.2318
+  },
+  {
+    "image": "n01582220_magpie",
+    "jai_bytes": 6360,
+    "jpeg_bytes": 164297,
+    "psnr": 24.26,
+    "bpp": 0.2714
+  },
+  {
+    "image": "n01592084_chickadee",
+    "jai_bytes": 5731,
+    "jpeg_bytes": 110333,
+    "psnr": 32.78,
+    "bpp": 0.2745
+  },
+  {
+    "image": "n01601694_water_ouzel",
+    "jai_bytes": 6379,
+    "jpeg_bytes": 109516,
+    "psnr": 33.33,
+    "bpp": 0.2722
+  },
+  {
+    "image": "n01608432_kite",
+    "jai_bytes": 5825,
+    "jpeg_bytes": 190764,
+    "psnr": 21.58,
+    "bpp": 0.233
+  },
+  {
+    "image": "n01614925_bald_eagle",
+    "jai_bytes": 6074,
+    "jpeg_bytes": 38745,
+    "psnr": 39.34,
+    "bpp": 0.2901
+  },
+  {
+    "image": "n01616318_vulture",
+    "jai_bytes": 6404,
+    "jpeg_bytes": 113683,
+    "psnr": 30.29,
+    "bpp": 0.2732
+  },
+  {
+    "image": "n01622779_great_grey_owl",
+    "jai_bytes": 15921,
+    "jpeg_bytes": 118700,
+    "psnr": 32.05,
+    "bpp": 0.2677
+  },
+  {
+    "image": "n01629819_European_fire_salamander",
+    "jai_bytes": 5451,
+    "jpeg_bytes": 198552,
+    "psnr": 19.96,
+    "bpp": 0.2326
+  },
+  {
+    "image": "n01630670_common_newt",
+    "jai_bytes": 2818,
+    "jpeg_bytes": 15728,
+    "psnr": 25.1,
+    "bpp": 0.2818
+  },
+  {
+    "image": "n01631663_eft",
+    "jai_bytes": 5645,
+    "jpeg_bytes": 143197,
+    "psnr": 23.25,
+    "bpp": 0.2704
+  },
+  {
+    "image": "n01632458_spotted_salamander",
+    "jai_bytes": 6862,
+    "jpeg_bytes": 147215,
+    "psnr": 28.96,
+    "bpp": 0.2724
+  },
+  {
+    "image": "n01632777_axolotl",
+    "jai_bytes": 4106,
+    "jpeg_bytes": 31125,
+    "psnr": 25.09,
+    "bpp": 0.2332
+  }
+]
