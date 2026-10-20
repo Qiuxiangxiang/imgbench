@@ -25,3 +25,16 @@
 ## 复现
 
 `bigfile_test/`：GLB 用 `npx @gltf-transform/cli optimize`；3DGS 分析 `ply_quantize.py`；权重 `zstd -3/-19` 计时命令如上。
+
+## 可用性验证（2026-10-20 补，「能压≠能用」逐项实测）
+
+| 产物 | 验证方式 | 结果 |
+|---|---|---|
+| GLB+Draco | Blender 实际导入 | ✅ 905,534 顶点全在，与原文件一致 |
+| GLB+meshopt / optimize | Blender 导入 | ❌ **Blender 不支持 meshopt 扩展**——meshopt 只适用于 Web/three.js 管线；要 Blender 兼容用 Draco |
+| 视频 x264/x265/AV1 转码 | 全程解码 | ✅ 零错误，时长一致（47.21s） |
+| safetensors zstd-3 | sha256 往返 | ✅ 逐位一致 |
+| npz | numpy 加载 | ✅ 正常（但外压无收益，别压） |
+| EXR 各变体 | 复原+通道+crypto 逐位 | ✅ 昨日已验（crypto PASS，78 通道完整） |
+
+**GLB 修正结论**：Blender/生产管线用 **Draco**（19×）；Web 发布可用 meshopt 全家桶（20.6×）但别进 Blender。
