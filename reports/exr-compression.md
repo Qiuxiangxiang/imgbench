@@ -31,3 +31,19 @@
 ## 复现
 
 全部命令用 oiiotool（brew openimageio）；产物与脚本在 `codec-lab/exr_test/`。
+
+## 复原验证（2026-10-20 补）
+
+**复原工具**：`experiments/restore_exr.sh`——输入任何压缩变体，输出 float32/zip 生产格式 EXR + gamma 预览 PNG。
+四个变体全部复原成功，实测：
+
+| 变体 | beauty 复原误差 | crypto 逐位一致 | 通道完整 | 可逆性 |
+|---|---|---|---|---|
+| half+crypto保f32（推荐） | max 0.03% @ 极亮像素 | ✅ **PASS（逐位相同）** | ✅ 78/78 | 视觉无损，bit 级不可逆（float32→16 精度） |
+| half 全转 | 同上 | ⚠️ crypto 精度降级 | ✅ 78/78 | 生产不推荐 |
+| DWAA | max 0.8% @ 极亮像素 | ❌ crypto 报废 | ✅ | 有损不可逆 |
+| beauty-only | 同 DWAA | （本来就不含） | 4/78（设计如此） | 有损，只含美颜层 |
+
+**可逆性结论**：EXR 各方案的「复原」= 还原成任何合成软件（Nuke/Blender/DaVinci）都能打开的标准 EXR。
+推荐方案下 crypto 遮罩逐位一致、颜色误差 0.03%（远低于人眼与显示器精度）。
+要 bit 级完全可逆只有一个办法：不换精度只换 zip 打包方式（体积不变，无意义）。
