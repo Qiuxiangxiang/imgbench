@@ -7,3 +7,5 @@ lpips
 numpy==1.26.4
 # 可选：OCR 审计扩展
 # rapidocr-onnxruntime
+# 可选：JPEG XL 基线（需 brew install jpeg-xl）
+# pillow-jxl-plugin

@@ -114,6 +114,12 @@ def main():
         if "cheng" in codecs: rows += bench_cheng(img)
         if "jpeg" in codecs: rows += bench_trad(img, "JPEG", (15,50,90))
         if "avif" in codecs: rows += bench_trad(img, "AVIF", (20,45,75))
+        if "jxl" in codecs:
+            try:
+                import pillow_jxl  # noqa
+                rows += bench_trad(img, "JXL", (50,75,90))
+            except ImportError:
+                rows.append({"codec": "jxl", "error": "需 pillow-jxl-plugin + brew jpeg-xl"})
         if "jpegai" in codecs: rows += bench_jpegai(img)
         for r in rows: r["image"] = os.path.basename(p)
         all_rows += rows
