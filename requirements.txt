@@ -1,0 +1,9 @@
+torch>=2.0
+torchvision
+compressai>=1.2.6
+Pillow
+pillow-avif-plugin
+lpips
+numpy==1.26.4
+# 可选：OCR 审计扩展
+# rapidocr-onnxruntime

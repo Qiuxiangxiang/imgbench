@@ -1,0 +1,35 @@
+diff --git a/src/codec/coding_tools/profiler/gpu_memory_usage.py b/src/codec/coding_tools/profiler/gpu_memory_usage.py
+index efe5d53..f68f3dd 100644
+--- a/src/codec/coding_tools/profiler/gpu_memory_usage.py
++++ b/src/codec/coding_tools/profiler/gpu_memory_usage.py
+@@ -35,11 +35,16 @@ import os
+ from datetime import datetime
+ 
+ import pandas as pd
+-from pynvml.smi import nvidia_smi
++try:
++    from pynvml.smi import nvidia_smi
++except ImportError:
++    nvidia_smi = None  # macOS/无 NVIDIA 环境：GPU profiler 退化
+ 
+ 
+ class GpuMemoryUsage:
+     def __init__(self):
++        if nvidia_smi is None:
++            self.table = pd.DataFrame(); self.directory = ''; self.buffer = dict(); return
+         nvsmi = nvidia_smi.getInstance()
+         total = nvsmi.DeviceQuery('memory.total')['gpu'][0]['fb_memory_usage']['total']
+         used = nvsmi.DeviceQuery('memory.used')['gpu'][0]['fb_memory_usage']['used']
+diff --git a/src/codec/entropy_coding/lib_wrappers/mans/ec_lib_mans.py b/src/codec/entropy_coding/lib_wrappers/mans/ec_lib_mans.py
+index e7efe42..a489a85 100644
+--- a/src/codec/entropy_coding/lib_wrappers/mans/ec_lib_mans.py
++++ b/src/codec/entropy_coding/lib_wrappers/mans/ec_lib_mans.py
+@@ -149,7 +149,7 @@ class ECLibMans(ECLibBaseWithThread):
+         """
+         init_quant_params_data = False
+         if os.path.exists(self.cache_file):
+-            cache_data = torch.load(self.cache_file)
++            cache_data = torch.load(self.cache_file, weights_only=False)  # 官方参考软件缓存，可信源
+             if cache_data['quant_params'] == self.quant_params and cache_data['quant_values'] == self.quant_values:
+                 self.encode_transitions = cache_data['encode_transition_file']
+                 self.decode_transitions = cache_data['decode_transition_file']
